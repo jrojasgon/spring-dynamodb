@@ -1,0 +1,7 @@
+amazon:
+  dynamodb:
+    endpoint: https://dynamodb.us-east-2.amazonaws.com
+  aws:
+    accesskey: {your_access_key}
+    secretkey: {your_secret_key}
+    role: arn:aws:iam::{account}:role/{role-name}
